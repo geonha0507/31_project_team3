@@ -74,8 +74,7 @@
 | `BOLA` | API1 | Broken Object Level Authorization (다른 사용자 데이터 접근) |
 | `IDOR` | API1 | Insecure Direct Object Reference (직접 객체 참조) |
 | `BFLA` | API5 | Broken Function Level Authorization (관리자 기능 무단 접근) |
-| `SSRF` | A10 | url 파라미터 무검증으로 requests.get() 직접 호출 →
-              메타데이터 서버 페이로드로 IAM 자격증명 노출 탐지 |
+| `SSRF` | A10 | url 파라미터 무검증으로 requests.get() 직접 호출 → 메타데이터 서버 페이로드로 IAM 자격증명 노출 탐지 |
 | `INSECURE` | API8 | Insecure Design (비밀번호 평문 저장, 입력값 검증 부재 등) |
 
 ---
